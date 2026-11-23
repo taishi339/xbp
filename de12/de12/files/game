@@ -1,0 +1,32 @@
+ok=0
+ng=0
+
+print("////////////////////////////")
+print("  STREET & CULTURE QUIZ!!!  ")
+print("////////////////////////////")
+#３問まとめて入力を受け取る。
+q1=input("Q1.1994年にNYで誕生した、赤いボックスロゴのブランドは？：")
+q2=input("Q2.NIKEのアイコニックなロゴをなんという？：")
+q3=input("Q3.Central　Ceeが手掛けるロンドン発のブランドは？：")
+
+print("\n・・・採点結果・・・")
+#第一問の判定
+if q1=="Supreme" or q1=="supreme" or q1=="シュプリーム":
+    print("Q1:正解")
+    ok = ok + 1
+else:
+    print("Q1:不正解…（正解: Supreme)")
+    ng = ng + 1
+#第二問の判定
+if q2=="スウッシュ"or q2=="スウォッシュ":
+    print("Q2:正解")
+    ok = ok + 1
+else:
+    print("Q2:不正解…（正解: スウォッシュ)")
+    ng = ng + 1
+#第三問の判定
+if q3=="SYNA"or q3 =="Syna" or q3=="Syna World" or q3=="シナワールド":
+    print("Q3:正解")
+    ok = ok + 1
+else:
+    print("Q3:不正解…（正解: Syna world)")
